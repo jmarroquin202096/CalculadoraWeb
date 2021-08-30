@@ -12,6 +12,8 @@
 
     <meta name="Keywords" content="Calculadora, JavaScript, CSS, HTML" />
 
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+
     <link rel="shortcut icon" href="Images/Calculadora.png">
 
     <link rel="stylesheet" href="EstiloCalculadora.css">
@@ -19,6 +21,12 @@
     <link rel="stylesheet" href="Iconos.css">
 
     <link rel="stylesheet" href="estiloCal.css">
+
+    <script src="Display.js" type="text/javascript"></script>
+
+    <script src="Calculadora.js" type="text/javascript"></script>
+
+    <script src="index.js" type="text/javascript" defer></script>
 
 </head>
 
@@ -44,12 +52,12 @@
                 </div>
                 <button onclick="display.borrarTodo()">C</button>
                 <button onclick="display.borrar()">&larr;</button>
-                <button class="operador">%</button>
+                <button class="operador" value="porcentaje">%</button>
                 <button class="operador" value="dividir">÷</button>
                 <button class="numero">7</button>
                 <button class="numero">8</button>
                 <button class="numero">9</button>
-                <button class="operador" value="multiplicar">x</button>
+                <button class="operador" value="multiplicar">×</button>
                 <button class="numero">4</button>
                 <button class="numero">5</button>
                 <button class="numero">6</button>
@@ -58,7 +66,7 @@
                 <button class="numero">2</button>
                 <button class="numero">3</button>
                 <button class="operador" value="sumar">+</button>
-                <button class="operador">+/-</button>
+                <button class="operador" value="masmenos">+/-</button>
                 <button class="numero">0</button>
                 <button class="numero">.</button>
                 <button class="operador" value="igual">=</button>

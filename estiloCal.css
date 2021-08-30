@@ -23,17 +23,17 @@
       font-size: 1.5em;
       border: none;
       background-color: #48C9B0;
-      box-shadow: 5px 5px 10px -3px White, -5px -5px 15px 3px #00ffc11f;
+      box-shadow: 5px 5px 10px -3px #17202A, -5px -5px 15px 3px #00ffc11f;
   }
   button:hover {
-    background-color: #2E4053;
+    background-color: #45B39D;
     color: white;
   }
   
   button:active {
     background-color: black;
     transform: translateY(4px);
-    color: white;
+    color: cadetblue;
   }
   
   
@@ -48,7 +48,7 @@
     margin: 10px 10px 20px;
     flex-direction: column;
     align-items: flex-end;
-    background-color: #363636;
+    background-color: #616A6B;
     border-radius: 32px;
     text-align: right;
     justify-content: space-between;
@@ -62,4 +62,9 @@
   
   #valor-anterior {
     font-size: 2em;
+  }
+
+  * {
+    font-family: 'Rampart One', cursive;
+    color: white;
   }
