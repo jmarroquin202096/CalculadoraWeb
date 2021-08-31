@@ -16,17 +16,17 @@
 
     <link rel="shortcut icon" href="Images/Calculadora.png">
 
-    <link rel="stylesheet" href="EstiloCalculadora.css">
+    <link rel="stylesheet" href="estiloIndex.css">
 
     <link rel="stylesheet" href="Iconos.css">
 
-    <link rel="stylesheet" href="estiloCal.css">
+    <link rel="stylesheet" href="estiloCalculadora.css">
 
     <script src="Display.js" type="text/javascript"></script>
 
     <script src="Calculadora.js" type="text/javascript"></script>
 
-    <script src="index.js" type="text/javascript" defer></script>
+    <script src="Index.js" type="text/javascript" defer></script>
 
 </head>
 
@@ -44,6 +44,8 @@
             </ul>
         </nav>|
     </header>
+</body>
+<body>
         <div class="container">
             <div class="calculadora">
                 <div class="display">
@@ -66,7 +68,7 @@
                 <button class="numero">2</button>
                 <button class="numero">3</button>
                 <button class="operador" value="sumar">+</button>
-                <button class="operador" value="masmenos">+/-</button>
+                <button onclick="display.masmenos()">+/-</button>
                 <button class="numero">0</button>
                 <button class="numero">.</button>
                 <button class="operador" value="igual">=</button>

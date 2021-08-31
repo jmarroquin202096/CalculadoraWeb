@@ -16,10 +16,7 @@ class Calculadora {
     }
 
     porcentaje(num1, num2) {
-        return num1 * num2 / 100;
+        return (num1 * num2)/100;
     }
 
-    masmenos(num1) {
-        return num1 * -1;
-    }
 } 

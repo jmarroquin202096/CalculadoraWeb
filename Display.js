@@ -13,7 +13,7 @@ class Display {
             multiplicar: '*',
             restar: '-', 
             porcentaje: '%',
-            masmenos: " ",
+            masmenos: '+/-',
         }
     }
 
@@ -34,6 +34,12 @@ class Display {
         this.tipoOperacion = tipo;
         this.valorAnterior = this.valorActual || this.valorAnterior;
         this.valorActual = '';
+        this.imprimirValores();
+    }
+
+    masmenos() {
+        if(!this.valorActual) return
+        this.valorActual = this.valorActual.toString() * -1;
         this.imprimirValores();
     }
 
