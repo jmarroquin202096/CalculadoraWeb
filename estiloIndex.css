@@ -1,4 +1,5 @@
 body {
+	/*background-color: black;*/
     background-image: url(Images/Fondo_Calculadora.jpg);
     background-size: cover;
     background-position: center center;
@@ -25,13 +26,24 @@ h2 {
 	text-indent: 100px;
 }
 
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #5DADE2 ;
+	text-align: Center;
+}
+
 p {
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 20px;
 	text-align: justify;
+	text-justify: inter-word;
 	color: #fff;
-	text-indent: 100px;
 }
+
+a.one:link {color:#99A3A4;}
+a.one:visited {color: #34DBCD;}
+a.one:hover {color:#D1F2EB;}
 
 .pig-secc{
     font-family: 'Times New Roman', Times, serif;
@@ -45,7 +57,7 @@ p {
 
 .pig-pag {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 200px;
+    height: 800px;
     font-size: 20px;
     color: #fff;
     text-align: center;
